@@ -7,7 +7,8 @@ import org.apache.hadoop.fs.Path;
 public class HDFSFileIfExist {
 	public static void main(String[] args){
         try{
-            String fileName = "input";  // 相对了路径的表示方法,即表示/usr/hadoop/input
+            String fileName = "input";  
+            // 相对了路径的表示方法,即表示/usr/hadoop/input
             // 若定义成 String fileName = “/input”  则表示 HDFS根目录下的 /input,此目录和 /usr 目录平行
             Configuration conf = new Configuration();
             conf.set("fs.defaultFS", "hdfs://localhost:9000");
