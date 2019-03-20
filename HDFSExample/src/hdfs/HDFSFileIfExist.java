@@ -4,6 +4,10 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 
+/**
+ * @author hadoop
+ * @see 判断文件是否存在于HDFS中
+ */
 public class HDFSFileIfExist {
 	public static void main(String[] args){
         try{
